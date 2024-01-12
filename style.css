@@ -1,0 +1,36 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: rgb(243, 164, 191);
+}
+main {
+    display: flex;           /* Using Flexbox */
+    flex-direction: column;  /* Align children in a column */
+    justify-content:flex-start; /* Center children  vertically*/
+    align-items: center;     /* Center children horizontally */
+    height: 100vh;           /* Optional: Full viewport height */
+    font-size: 3vh;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#quoteDisplay {
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    /* Centering text inside the quote display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+button{
+    font-size: 3vh;
+}
